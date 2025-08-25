@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kayaku_widget_app/navigation/first_page.dart';
+import 'package:kayaku_widget_app/restapi/pages/news_page.dart';
+import 'package:kayaku_widget_app/restapi/restapi_page.dart';
 import 'package:kayaku_widget_app/widget_lesson/basic/container_widget.dart';
 import 'package:kayaku_widget_app/widget_lesson/form/form_page.dart';
 import 'package:kayaku_widget_app/widget_lesson/layouting/layouting_page.dart';
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const FirstPage(),
+      home: const NewsPage(),
     );
   }
 }
